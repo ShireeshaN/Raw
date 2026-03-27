@@ -403,58 +403,108 @@
 <!-- Prize Section End -->
 
 
+<!-- Classes Section Begin -->
+<section class="classes-section">
 
-    <!-- Classes Section Begin -->
-
- 
-    <section class="classes-section">
-        <div class="class-title set-bg" data-setbg="img/classes-title-bg.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 m-auto text-center">
-                        <div class="section-title pl-lg-4 pr-lg-4 pl-0 pr-0">
-                            <h2>Choose Your Program</h2>
-                            <p>Our Raw Strength experts can help you discover new training techniques and exercises that offer a dynamic and efficient full-body workout.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-           <div class="section-title" style="text-align:center; padding:40px 0; background-color: black;">
-    <h2 style="color:#fff;">RULES & FORMAT</h2>
-</div>
-        <div class="container-fluid">
+    <!-- Top Banner -->
+    <div class="class-title set-bg" data-setbg="img/classes-title-bg.jpg">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/classes/class-1.jpg">
-                        <h4>No Kipping</h4>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/classes/class-2.jpg">
-                        <h4>Full Extension</h4>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/classes/class-3.jpg">
-                        <h4>Chest to Ground</h4>
-                      
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="classes-item set-bg" data-setbg="img/classes/class-4.jpg">
-                        <h4>Proper Form</h4>
-                      
+                <div class="col-lg-7 m-auto text-center">
+                    <div class="section-title pl-lg-4 pr-lg-4 pl-0 pr-0">
+                        <h2>RULES & FORMAT</h2>
+                        <p>Strict standards. Clean form. True performance.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Classes Section End -->
+    </div>
 
+    <!-- Rules Grid -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-3 col-sm-6 col-6">
+                <div class="classes-item set-bg" data-setbg="img/classes/class-1.jpg">
+                    <h4>No Kipping</h4>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-6">
+                <div class="classes-item set-bg" data-setbg="img/classes/class-2.jpg">
+                    <h4>Full Extension</h4>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-6">
+                <div class="classes-item set-bg" data-setbg="img/classes/class-3.jpg">
+                    <h4>Chest to Ground</h4>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-6">
+                <div class="classes-item set-bg" data-setbg="img/classes/class-4.jpg">
+                    <h4>Proper Form</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<style>
+    /* Make items clean & readable */
+.classes-item {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Dark overlay for readability */
+.classes-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.classes-item h4 {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* 🔻 MOBILE FIX */
+@media (max-width: 768px) {
+
+    .class-title {
+        padding: 60px 20px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .classes-item {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .classes-item h4 {
+        font-size: 16px;
+    }
+}
+</style>
+<!-- Classes Section End -->
 
 
 
